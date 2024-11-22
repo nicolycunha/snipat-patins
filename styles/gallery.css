@@ -102,3 +102,14 @@ section.gallery {
     transform: translateY(100%);
   }
 }
+
+@media (width < 80em) {
+  section.gallery {
+    padding: 0 1.5rem;
+
+    & .content {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
