@@ -26,6 +26,11 @@
   --text-xl: 4rem;
 }
 
+html {
+  background: var(--background);
+  color: var(--text);
+}
+
 html,
 button {
   font: 500 1rem/1.5 var(--ff-base);
